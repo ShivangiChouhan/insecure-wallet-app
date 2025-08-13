@@ -316,3 +316,5 @@ For questions, issues, or contributions:
 
 **Remember: This is an educational tool. Always practice responsible disclosure and ethical hacking principles.**
 
+#   i n s e c u r e - w a l l e t - a p p  
+ 
