@@ -8,14 +8,14 @@
 ## ⚠️ SECURITY WARNING
 **This application contains intentional security vulnerabilities for educational purposes only. DO NOT deploy this application in a production environment or expose it to the internet without proper security controls.**
 
-## 📋 Project Overview
+## Project Overview
 
 This project is a comprehensive web application security simulation that demonstrates common OWASP Top 10 vulnerabilities and their remediation strategies. It consists of two versions:
 
 1. **Insecure Version** (`server.js`) - Contains intentional vulnerabilities for demonstration
 2. **Secure Version** (`server-secure.js`) - Implements proper security controls and remediation
 
-### 🎯 Educational Objectives
+### Educational Objectives
 
 - Demonstrate real-world web application vulnerabilities
 - Provide hands-on experience with penetration testing
@@ -161,7 +161,7 @@ curl -X GET http://localhost:3000/api/admin/users \
   -H "Authorization: Bearer [REGULAR_USER_TOKEN]"
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 insecure-wallet-app/
@@ -179,14 +179,14 @@ insecure-wallet-app/
 └── README.md                   # This file
 ```
 
-## 📚 Documentation
+## Documentation
 
 - **[VULNERABILITIES.md](VULNERABILITIES.md)** - Detailed vulnerability descriptions and exploitation methods
 - **[SECURITY_REMEDIATION.md](SECURITY_REMEDIATION.md)** - Complete security fixes and remediation strategies
 - **[penetration_testing.md](penetration_testing.md)** - Penetration testing methodology and results
 - **[project_plan.md](project_plan.md)** - Project architecture and implementation plan
 
-## 🎓 Learning Path
+## Learning Path
 
 ### For Beginners:
 1. Start with the insecure version
@@ -202,7 +202,7 @@ insecure-wallet-app/
 4. Implement additional security measures
 5. Create custom exploit scripts
 
-## 🛠️ Development
+## 🛠Development
 
 ### Adding New Vulnerabilities:
 1. Identify the vulnerability type
@@ -243,7 +243,7 @@ nodemon server.js
 ### Utility
 - `GET /api/health` - Health check (secure version only)
 
-## 🚨 Common Vulnerabilities Demonstrated
+## Common Vulnerabilities Demonstrated
 
 | Vulnerability | OWASP 2021 | Severity | Exploitable |
 |---------------|------------|----------|-------------|
@@ -253,7 +253,7 @@ nodemon server.js
 | Information Disclosure | A09 | Medium | ✅ |
 | Weak Session Management | A07 | Medium | ✅ |
 
-## 🎯 Use Cases
+### Use Cases
 
 ### Educational Institutions:
 - Cybersecurity courses
@@ -273,7 +273,7 @@ nodemon server.js
 - Testing security implementations
 - Code review training
 
-## 🤝 Contributing
+### Contributing
 
 Contributions are welcome! Please read our contributing guidelines:
 
@@ -290,22 +290,22 @@ Contributions are welcome! Please read our contributing guidelines:
 - Better documentation
 - Frontend improvements
 
-## 📄 License
+## 📄License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚖️ Legal Disclaimer
+## ⚖Legal Disclaimer
 
 This software is provided for educational purposes only. The authors and contributors are not responsible for any misuse of this software. Users must ensure they have proper authorization before testing on any systems they do not own.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OWASP Foundation for security guidelines
 - Node.js and Express.js communities
 - Security researchers and educators
 - Open source security tools
 
-## 📞 Support
+## Support
 
 For questions, issues, or contributions:
 - Create an issue on GitHub
