@@ -76,11 +76,11 @@ The Web App Security Simulation project has been successfully completed with bot
 
 | Vulnerability Type | Insecure Version | Secure Version | Status |
 |-------------------|------------------|----------------|---------|
-| IDOR | ❌ Exploitable |   Protected | Fixed |
-| Broken Authentication | ❌ Exploitable |   Protected | Fixed |
-| Missing Authorization | ❌ Exploitable |   Protected | Fixed |
-| Information Disclosure | ❌ Present |   Mitigated | Fixed |
-| Weak Session Management | ❌ Exploitable |   Protected | Fixed |
+| IDOR |   Exploitable |   Protected | Fixed |
+| Broken Authentication |   Exploitable |   Protected | Fixed |
+| Missing Authorization |   Exploitable |   Protected | Fixed |
+| Information Disclosure |   Present |   Mitigated | Fixed |
+| Weak Session Management |   Exploitable |   Protected | Fixed |
 
 ### Exploitation Examples
 
