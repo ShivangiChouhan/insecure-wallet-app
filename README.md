@@ -112,7 +112,7 @@ This project is a comprehensive web application security simulation that demonst
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -265,7 +265,7 @@ nodemon server.js
 
 ---
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -352,13 +352,13 @@ Contributions are welcome! Please read our contributing guidelines:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## ⚖ Legal Disclaimer
+## Legal Disclaimer
 
 This software is provided for educational purposes only. The authors and contributors are not responsible for any misuse of this software. Users must ensure they have proper authorization before testing or using this application in any environment.
 
