@@ -28,7 +28,7 @@ This project is a comprehensive web application security simulation that demonst
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend
 
@@ -45,7 +45,7 @@ This project is a comprehensive web application security simulation that demonst
 
 ---
 
-## 🔓 Implemented Vulnerabilities (Insecure Version)
+## Implemented Vulnerabilities (Insecure Version)
 
 ### 1. Insecure Direct Object References (IDOR)
 
@@ -85,30 +85,30 @@ This project is a comprehensive web application security simulation that demonst
 
 ---
 
-## 🔒 Security Fixes (Secure Version)
+## Security Fixes (Secure Version)
 
 ### Authentication & Authorization
 
-- ✅ Strong JWT secrets with `crypto.randomBytes()`
-- ✅ Token expiration (1 hour)
-- ✅ Token invalidation on logout
-- ✅ Role-based access control (RBAC)
-- ✅ Proper authorization checks for all endpoints
+-   Strong JWT secrets with `crypto.randomBytes()`
+-   Token expiration (1 hour)
+-   Token invalidation on logout
+-   Role-based access control (RBAC)
+-   Proper authorization checks for all endpoints
 
 ### Input Validation & Security
 
-- ✅ Strong password requirements
-- ✅ Input sanitization and validation
-- ✅ Rate limiting (5 attempts per 15 minutes)
-- ✅ Request payload size limits
-- ✅ Email format validation
+-   Strong password requirements
+-   Input sanitization and validation
+-   Rate limiting (5 attempts per 15 minutes)
+-   Request payload size limits
+-   Email format validation
 
 ### Error Handling & Information Security
 
-- ✅ Generic error messages
-- ✅ Data minimization in responses
-- ✅ Centralized error handling
-- ✅ Audit logging for admin actions
+-   Generic error messages
+-   Data minimization in responses
+-   Centralized error handling
+-   Audit logging for admin actions
 
 ---
 
@@ -160,7 +160,7 @@ This project is a comprehensive web application security simulation that demonst
 
 ---
 
-## 🧪 Testing Vulnerabilities
+## Testing Vulnerabilities
 
 ### Built-in Testing Panel
 
@@ -243,7 +243,7 @@ insecure-wallet-app/
 
 ---
 
-## 🛠 Development
+## Development
 
 ### Adding New Vulnerabilities
 
@@ -299,11 +299,11 @@ nodemon server.js
 
 | Vulnerability           | OWASP 2021 | Severity | Exploitable |
 |------------------------|------------|----------|-------------|
-| IDOR                   | A01        | High     | ✅          |
-| Broken Authentication  | A07        | High     | ✅          |
-| Missing Authorization  | A01        | High     | ✅          |
-| Information Disclosure | A09        | Medium   | ✅          |
-| Weak Session Management| A07        | Medium   | ✅          |
+| IDOR                   | A01        | High     | yes        |
+| Broken Authentication  | A07        | High     | yes        |
+| Missing Authorization  | A01        | High     | yes        |
+| Information Disclosure | A09        | Medium   | yes        |
+| Weak Session Management| A07        | Medium   | yes        |
 
 ---
 
